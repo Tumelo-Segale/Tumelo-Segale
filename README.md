@@ -21,7 +21,7 @@ Welcome to my GitHub profile! I'm a passionate developer who enjoys solving prob
    A user authentication form with JavaScript handling the validation and form submission. *(JavaScript)*  
 
 5. **[Calculator App](https://github.com/Tumelo-Segale/Calculator-App)**  
-   A simple calculator built with HTML and styled beautifully using CSS. *(HTML, CSS)*  
+   A simple calculator built with HTML and styled beautifully using CSS. *(HTML, CSS, JavaScript)*  
 
 6. **[Banking System](https://github.com/Tumelo-Segale/Banking-System)**  
    A Python-based banking system with essential features like account management and transactions. *(Python)*  
