@@ -12,13 +12,13 @@ Welcome to my GitHub profile! I'm a passionate developer who enjoys solving prob
    A powerful weather application built using React, integrating APIs for real-time weather updates and dynamic UI. *(React, JavaScript)*  
 
 2. **[Slide Puzzle Solver Game](https://github.com/Tumelo-Segale/Slide-Puzzle-Solver-Game)**  
-   A game to solve slide puzzles using CSS. Dive into the logic and creativity behind this implementation! *(CSS)*  
+   A game to solve slide puzzles using CSS. Dive into the logic and creativity behind this implementation! *(HTML, CSS, JavaScript)*  
 
 3. **[Rock Paper Scissor](https://github.com/Tumelo-Segale/Rock-Paper-Scissor)**  
    The classic game implemented in Python. Learn how I structured the logic to make this interactive! *(Python)*  
 
 4. **[Authentication Form](https://github.com/Tumelo-Segale/Authentication-Form)**  
-   A user authentication form with JavaScript handling the validation and form submission. *(JavaScript)*  
+   A user authentication form with JavaScript handling the validation and form submission. *(HTML, CSS, JavaScript)*  
 
 5. **[Calculator App](https://github.com/Tumelo-Segale/Calculator-App)**  
    A simple calculator built with HTML and styled beautifully using CSS. *(HTML, CSS, JavaScript)*  
