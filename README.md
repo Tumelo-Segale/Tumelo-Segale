@@ -47,4 +47,4 @@ Welcome to my GitHub profile! I'm a passionate developer who enjoys solving prob
 - I love solving challenging problems and learning new technologies.
 - I'm constantly improving my skills in **Java**, **React**, and **Spring Boot**.
 - Looking forward to collaborating on full-stack projects!
-- Also have an understanding of Databased (MySQL)
+- Also have an understanding of Databases (MySQL)
