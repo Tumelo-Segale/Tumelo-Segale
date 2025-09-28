@@ -26,7 +26,7 @@ Welcome to my GitHub profile! I'm a passionate developer who enjoys solving prob
 6. **[Banking System](https://github.com/Tumelo-Segale/Banking-System)**  
    A Python-based banking system with essential features like account management and transactions. *(Python)*
 
-7. **[](https://github.com/B-A-QUANTUM-AI)**
+7. **[MRI Analysing AI](https://github.com/B-A-QUANTUM-AI)**
    An 
 
 ---
