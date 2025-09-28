@@ -6,7 +6,7 @@ Welcome to my GitHub profile! I'm a passionate developer who enjoys solving prob
 
 ## 🔭 My Projects
 
-### 🌟 Featured Repositories:
+### 🌟 Featured Repositories/Projects:
 
 1. **[Weather App React](https://github.com/Tumelo-Segale/Weather-App-React)**  
    A powerful weather application built using React, integrating APIs for real-time weather updates and dynamic UI. *(React, JavaScript)*  
@@ -24,7 +24,10 @@ Welcome to my GitHub profile! I'm a passionate developer who enjoys solving prob
    A simple calculator built with HTML and styled beautifully using CSS. *(HTML, CSS, JavaScript)*  
 
 6. **[Banking System](https://github.com/Tumelo-Segale/Banking-System)**  
-   A Python-based banking system with essential features like account management and transactions. *(Python)*  
+   A Python-based banking system with essential features like account management and transactions. *(Python)*
+
+7. **[](https://github.com/B-A-QUANTUM-AI)**
+   An 
 
 ---
 
