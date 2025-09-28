@@ -34,7 +34,7 @@ Welcome to my GitHub profile! I'm a passionate developer who enjoys solving prob
 
 ### 🧑‍💻 Programming Languages:
 - **JavaScript**
-- **Python**
+- **Python | Machine Learning**
 - **Java**
 - **CSS**
 - **HTML**
