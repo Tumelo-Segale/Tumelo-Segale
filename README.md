@@ -26,12 +26,8 @@ Welcome to my GitHub profile! I'm a passionate developer who enjoys solving prob
 6. **[Banking System](https://github.com/Tumelo-Segale/Banking-System)**  
    A Python-based banking system with essential features like account management and transactions. *(Python)*
 
-7. **[Banking System](https://github.com/Tumelo-Segale/Banking-System)**  
-   A Python-based banking system with essential features like account management and transactions. *(Python)*
-
-8. **[MRI Analysing AI](https://github.com/B-A-QUANTUM-AI)**
-   An AI solution that analyses and classify MRI scans from a given dataset. It predicts the outcome and classify it into 4 categories. *(Python)*
----
+7. **[MRI Analysing AI](https://github.com/B-A-QUANTUM-AI)**  
+   A AI solution that analyses and classify MRI scans from a given dataset. It predicts the outcome and classify it into 4 categories. *(Python)*
 
 ## 🌱 My Skills
 
