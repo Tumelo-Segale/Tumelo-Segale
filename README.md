@@ -27,8 +27,7 @@ Welcome to my GitHub profile! I'm a passionate developer who enjoys solving prob
    A Python-based banking system with essential features like account management and transactions. *(Python)*
 
 7. **[MRI Analysing AI](https://github.com/B-A-QUANTUM-AI)**
-   An 
-
+   An AI solution that analyses and classify MRI scans from a given dataset. It predicts the outcome and classify it into 4 categories. *(Python)*
 ---
 
 ## 🌱 My Skills
