@@ -28,6 +28,8 @@ Welcome to my GitHub profile! I'm a passionate developer who enjoys solving prob
 
 7. **[MRI Analysing AI](https://github.com/B-A-QUANTUM-AI)**  
    An AI solution that analyses and classifies MRI scans from a preset dataset. It predicts and classifies it into 4 categories (glioma, meningioma, pituitary, no_tumor), and displays the prediction, confidence score, and the actual analysis. *(Python)*
+8. **[Full Stack Application](https://github.com/Tumelo-Segale/Full-Stack)**
+   
 
 ## 🌱 Skills
 
