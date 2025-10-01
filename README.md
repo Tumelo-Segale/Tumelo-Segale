@@ -44,7 +44,7 @@ Welcome to my GitHub profile! I'm a passionate developer who enjoys solving prob
 ### 🛠️ Frameworks:
 - **React** (for building dynamic user interfaces)
 - **Spring Boot** (for creating efficient backend systems)
-
+- **MySQL** (A relational database management system used for storing and managing structured data)
 ---
 
 ## 💻 About Me
