@@ -28,9 +28,9 @@ Welcome to my GitHub profile! I'm a passionate developer who enjoys solving prob
 
 7. **[MRI Analysing AI](https://github.com/B-A-QUANTUM-AI)**  
    An AI solution that analyses and classifies MRI scans from a preset dataset. It predicts and classifies it into 4 categories (glioma, meningioma, pituitary, no_tumor), and displays the prediction, confidence score, and the actual analysis. *(Python)*
-8. **[Full Stack Application](https://github.com/Tumelo-Segale/Full-Stack)**
-   The application made to better understand Full Stack; how back-end communicated with both the front-end and the database. It was made to showcase how React (front-end) connects with Spring Boot (back-end) and MySQL (database) through APIs.
 
+7. **[Full Stack Application](https://github.com/Tumelo-Segale/Full-Stack)**  
+   The application made to better understand Full Stack; how back-end communicated with both the front-end and the database. It was made to showcase how React (front-end) connects with Spring Boot (back-end) and MySQL (database) through APIs.
 ## 🌱 Skills
 
 ### 🧑‍💻 Programming Languages:
