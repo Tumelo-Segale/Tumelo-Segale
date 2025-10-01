@@ -23,10 +23,7 @@ Welcome to my GitHub profile! I'm a passionate developer who enjoys solving prob
 5. **[Calculator App](https://github.com/Tumelo-Segale/Calculator-App)**  
    A simple calculator built with HTML and styled beautifully using CSS. *(HTML, CSS, JavaScript)*  
 
-6. **[Banking System](https://github.com/Tumelo-Segale/Banking-System)**  
-   A Python-based banking system with essential features like account management and transactions. *(Python)*
-
-7. **[MRI Analysing AI](https://github.com/B-A-QUANTUM-AI)**  
+6. **[MRI Analysing AI](https://github.com/B-A-QUANTUM-AI)**  
    An AI solution that analyses and classifies MRI scans from a preset dataset. It predicts and classifies it into 4 categories (glioma, meningioma, pituitary, no_tumor), and displays the prediction, confidence score, and the actual analysis. *(Python)*
 
 7. **[Full Stack Application](https://github.com/Tumelo-Segale/Full-Stack)**  
