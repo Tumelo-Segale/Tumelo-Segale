@@ -30,7 +30,7 @@ Welcome to my GitHub profile! I'm a passionate developer who enjoys solving prob
    The application made to better understand Full Stack; how back-end communicates with both the front-end and the database. It was made to showcase how React (front-end) connects with Spring Boot (back-end) and MySQL (database) through APIs.
 
 8. **[MarketPlace - FrontEnd](https://github.com/Tumelo-Segale/MarketPlace)**  
-   CropCart is a digital marketplace that empowers small-scale farmers and local fruit & vegetable vendors by providing a platform to showcase their produce, track sales, and connect directly with customers. Customers can browse, buy, and collect fresh local produce, supporting community agriculture and reducing reliance on middlemen.
+   CropCart is a digital marketplace that empowers small-scale farmers and local fruit & vegetable vendors by providing a platform to showcase their produce, track sales, and connect directly with customers. Customers can browse, buy, and collect fresh local produce, supporting community agriculture and reducing reliance on middlemen. *(React.js, LocalStorage, Payfast sandbox)* 
 
 ## 🌱 Skills
 
