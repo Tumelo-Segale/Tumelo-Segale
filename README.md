@@ -66,7 +66,6 @@ Welcome to my GitHub profile! I'm a passionate developer who loves solving probl
 ---
 
 ## 📫 Let's Connect
-- [LinkedIn](https://www.linkedin.com/in/tumelo-segale)  
-- [Twitter](https://twitter.com/yourhandle)  
-- [Email](mailto:your-email@example.com)  
+- [LinkedIn](https://www.linkedin.com/in/tumelo-segale)    
+- [Email](mailto:tumelosegale56@gmail.com)  
 
