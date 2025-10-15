@@ -37,13 +37,12 @@ Welcome to my GitHub profile! I'm a passionate developer who enjoys solving prob
 ### 🧑‍💻 Programming Languages:
 - **JavaScript**
 - **MySQL**
-- **React.js**
 - **Python | Machine Learning**
 - **Java**
 - **CSS**
 - **HTML**
 
-### 🛠️ Frameworks:
+### 🛠️ Frameworks & Libraries:
 - **React** (For building dynamic user interfaces)
 - **Spring Boot** (For creating efficient backend systems)
 - **MySQL** (A relational database management system used for storing and managing structured data)
