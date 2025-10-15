@@ -1,54 +1,72 @@
-# 👋 Hi there, I'm Tumelo Segale, but you can call me TUJAR!
+# 👋 Hi there, I'm Tumelo Segale (TUJAR)!
 
-Welcome to my GitHub profile! I'm a passionate developer who enjoys solving problems, creating efficient solutions, and exploring new technologies. Here's a snapshot of what I do:
+Welcome to my GitHub profile! I'm a passionate developer who loves solving problems, building efficient solutions, and exploring new technologies. 🚀  
 
 ---
 
-## 🔭 Projects
+## 🔭 Featured Projects
 
-### 🌟 Featured Repositories/Projects:
+### 🌟 Top Repositories
 
 1. **[Weather App React](https://github.com/Tumelo-Segale/Weather-App-React)**  
-   A powerful weather application built using React, integrating APIs for real-time weather updates and dynamic UI. *(React, JavaScript)*  
+   Real-time weather app with dynamic UI and API integration.  
+   ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
 2. **[Slide Puzzle Solver Game](https://github.com/Tumelo-Segale/Slide-Puzzle-Solver-Game)**  
-   A game to solve slide puzzles using CSS. Dive into the logic and creativity behind this implementation! *(HTML, CSS, JavaScript)*  
+   Interactive slide puzzle game showcasing logic and creativity.  
+   ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
 3. **[Rock Paper Scissor](https://github.com/Tumelo-Segale/Rock-Paper-Scissor)**  
-   The classic game implemented in Python. Learn how I structured the logic to make this interactive! *(Python)*  
+   Classic game implemented in Python with clean logic.  
+   ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
 
 4. **[Authentication Form](https://github.com/Tumelo-Segale/Authentication-Form)**  
-   A user authentication form with JavaScript handling the validation and form submission. *(HTML, CSS, JavaScript)*  
+   User authentication form with validation using JavaScript.  
+   ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
 5. **[Calculator App](https://github.com/Tumelo-Segale/Calculator-App)**  
-   A simple calculator built with HTML and styled beautifully using CSS. *(HTML, CSS, JavaScript)*  
+   Simple calculator with clean UI design.  
+   ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
 6. **[MRI Analysing AI](https://github.com/B-A-QUANTUM-AI)**  
-   An AI solution that analyses and classifies MRI scans from a preset dataset. It predicts and classifies it into 4 categories (glioma, meningioma, pituitary, no_tumor), and displays the prediction, confidence score, and the actual analysis. *(Python)*
+   AI model analyzing and classifying MRI scans into 4 categories.  
+   ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![Machine Learning](https://img.shields.io/badge/-Machine%20Learning-FF6F61?style=flat)
 
 7. **[Full Stack Application](https://github.com/Tumelo-Segale/Full-Stack)**  
-   The application made to better understand Full Stack; how back-end communicates with both the front-end and the database. It was made to showcase how React (front-end) connects with Spring Boot (back-end) and MySQL (database) through APIs.
+   Full-stack demo connecting React front-end, Spring Boot back-end, and MySQL database.  
+   ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black) ![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
-8. **[MarketPlace - FrontEnd](https://github.com/Tumelo-Segale/MarketPlace)**  
-   CropCart is a digital marketplace that empowers small-scale farmers and local fruit & vegetable vendors by providing a platform to showcase their produce, track sales, and connect directly with customers. Customers can browse, buy, and collect fresh local produce, supporting community agriculture and reducing reliance on middlemen. *(React.js, LocalStorage, Payfast sandbox)* 
+8. **[MarketPlace - CropCart](https://github.com/Tumelo-Segale/MarketPlace)**  
+   A digital marketplace empowering small-scale farmers to sell directly to customers.  
+   ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+
+---
 
 ## 🌱 Skills
 
-### 🧑‍💻 Programming Languages:
-- **JavaScript**
-- **MySQL**
-- **Python | Machine Learning**
-- **Java**
-- **CSS**
-- **HTML**
+### 🧑‍💻 Languages
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)  
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)  
+![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white)  
+![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=white)  
+![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat&logo=css3&logoColor=white)  
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
-### 🛠️ Frameworks & Libraries:
-- **React** (For building dynamic user interfaces)
-- **Spring Boot** (For creating efficient backend systems)
-- **MySQL** (A relational database management system used for storing and managing structured data)
+### 🛠 Frameworks & Libraries
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)  
+![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat&logo=spring&logoColor=white)
+
 ---
 
 ## 💻 About Me
-- I love solving challenging problems and learning new technologies.
-- I'm constantly improving my skills in **Java**, **React**, and **Spring Boot**.
-- Looking forward to collaborating on full-stack projects!
+- Love solving challenging problems and building practical solutions.  
+- Continuously improving my skills in **Java**, **React**, and **Spring Boot**.  
+- Excited to collaborate on full-stack projects and innovative applications!  
+
+---
+
+## 📫 Let's Connect
+- [LinkedIn](https://www.linkedin.com/in/tumelo-segale)  
+- [Twitter](https://twitter.com/yourhandle)  
+- [Email](mailto:your-email@example.com)  
+
