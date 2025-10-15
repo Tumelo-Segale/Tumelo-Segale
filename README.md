@@ -32,17 +32,6 @@ Welcome to my GitHub profile! I'm a passionate developer who enjoys solving prob
 8. **[MarketPlace - FrontEnd](https://github.com/Tumelo-Segale/MarketPlace)**  
    CropCart is a digital marketplace that empowers small-scale farmers and local fruit & vegetable vendors by providing a platform to showcase their produce, track sales, and connect directly with customers. Customers can browse, buy, and collect fresh local produce, supporting community agriculture and reducing reliance on middlemen.
 
-Key Features:
-Customer browsing, cart management, and PayFast Sandbox checkout
-Farmer product management, order tracking, and sales statistics
-Admin overview of platform activity and Batch EFT generation
-
-Technologies:
-Frontend: React.js
-Backend: None
-Database: LocalStorage
-Payment Gateway: PayFast Sandbox
-
 ## 🌱 Skills
 
 ### 🧑‍💻 Programming Languages:
