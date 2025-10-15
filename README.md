@@ -36,11 +36,12 @@ Welcome to my GitHub profile! I'm a passionate developer who enjoys solving prob
 
 ### 🧑‍💻 Programming Languages:
 - **JavaScript**
+- **MySQL**
+- **React.js**
 - **Python | Machine Learning**
 - **Java**
 - **CSS**
 - **HTML**
-- **MySQL**
 
 ### 🛠️ Frameworks:
 - **React** (For building dynamic user interfaces)
