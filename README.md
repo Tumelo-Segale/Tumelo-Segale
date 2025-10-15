@@ -28,6 +28,9 @@ Welcome to my GitHub profile! I'm a passionate developer who enjoys solving prob
 
 7. **[Full Stack Application](https://github.com/Tumelo-Segale/Full-Stack)**  
    The application made to better understand Full Stack; how back-end communicates with both the front-end and the database. It was made to showcase how React (front-end) connects with Spring Boot (back-end) and MySQL (database) through APIs.
+
+8. **[MarketPlace - FrontEnd](https://github.com/Tumelo-Segale/MarketPlace)**  
+   The application made to better understand Full Stack; how back-end communicates with both the front-end and the database. It was made to showcase how React (front-end) connects with Spring Boot (back-end) and MySQL (database) through APIs.
 ## 🌱 Skills
 
 ### 🧑‍💻 Programming Languages:
