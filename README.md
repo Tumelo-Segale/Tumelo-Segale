@@ -38,7 +38,10 @@ Welcome to my GitHub profile! I'm a passionate developer who loves solving probl
 
 8. **[MarketPlace - CropCart](https://github.com/Tumelo-Segale/MarketPlace)**  
    A digital marketplace empowering small-scale farmers to sell directly to customers.  
-   ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+   ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black) 
+   ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) 
+   ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
+   ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
 ---
 
