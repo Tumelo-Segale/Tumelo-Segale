@@ -47,7 +47,7 @@ Welcome to my GitHub profile! I'm a passionate developer who loves solving probl
    ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
 8. **[ResCare](https://github.com/Tumelo-Segale/ResCare)**  
-   All-in-one residence maintenance management platform that helps students log maintenance requests, track progress in real-time, and enables administrators to manage and monitor all activities efficiently.  
+   All-in-one mobile residence maintenance management platform that helps students log maintenance requests, track progress in real-time, and enables administrators to manage and monitor all activities efficiently.  
    🔗 **Live Demo:** [ResCare](https://rescare.vercel.app)  
    ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
    ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) 
