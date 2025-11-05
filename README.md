@@ -45,6 +45,10 @@ Welcome to my GitHub profile! I'm a passionate developer who loves solving probl
    ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
    ![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white)
    ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+
+8. **[ResCare – Residence Maintenance Platform](https://github.com/Tumelo-Segale/ResCare)**
+   An all-in-one residence maintenance management platform designed to make campus living smoother and more efficient.
+   Students can log and track maintenance requests, while administrators manage and monitor them in real time.
 ---
 
 ## 🌱 Skills
