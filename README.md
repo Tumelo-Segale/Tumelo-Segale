@@ -47,15 +47,25 @@ Welcome to my GitHub profile! I'm a passionate developer who loves solving probl
    ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
 8. **[ResCare – Residence Maintenance Platform](https://github.com/Tumelo-Segale/ResCare)**  
-   An all-in-one residence maintenance management platform designed to make campus living smoother and more efficient.
-   Students can log and track maintenance requests, while administrators manage and monitor them in real time.
-   
+   An all-in-one residence maintenance management platform designed to make campus living smoother and more efficient.  
+   Students can log and track maintenance requests, while administrators manage and monitor them in real time.  
    ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=white)
    ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat&logo=css3&logoColor=white)
    ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat&logo=php&logoColor=white)
-   ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) 
+   ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
    ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
- 
+
+9. **[FoundIt – Lost & Found Campus Platform](https://github.com/Tumelo-Segale/FoundIt)**   
+   *FoundIt* is a web platform that helps students across multiple universities report and find lost items easily.  
+   Inspired by a real campus experience, this system centralizes lost and found processes that every university struggles with.  
+   Students can report, search, and recover lost belongings — all filtered by their specific campus — creating one unified solution for all.  
+
+   ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=white)
+   ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat&logo=css3&logoColor=white)
+   ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+   ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat&logo=php&logoColor=white)
+   ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+
 ---
 
 ## 🌱 Skills
@@ -82,5 +92,6 @@ Welcome to my GitHub profile! I'm a passionate developer who loves solving probl
 - Excited to collaborate on full-stack projects and innovative applications!  
 
 ---
+
 ## 📫 Let's Connect
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tumelo-segale)
