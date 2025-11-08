@@ -56,10 +56,9 @@ Welcome to my GitHub profile! I'm a passionate developer who loves solving probl
    ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
 9. **[FoundIt – Lost & Found Campus Platform](https://github.com/Tumelo-Segale/FoundIt)**   
-   *FoundIt* is a web platform that helps students across multiple universities report and find lost items easily.  
+   A web platform that helps students across multiple universities report and find lost items easily.  
    Inspired by a real campus experience, this system centralizes lost and found processes that every university struggles with.  
    Students can report, search, and recover lost belongings — all filtered by their specific campus — creating one unified solution for all.  
-
    ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=white)
    ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat&logo=css3&logoColor=white)
    ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
