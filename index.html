@@ -34,6 +34,21 @@
 
         html {
             scroll-behavior: smooth;
+            scroll-padding-top: 80px;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            html {
+                scroll-behavior: auto;
+            }
+
+            *,
+            *::before,
+            *::after {
+                animation-duration: .01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: .01ms !important;
+            }
         }
 
         body {
@@ -45,6 +60,8 @@
                 linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
                 linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
             background-size: 40px 40px;
+            padding-bottom: 24px;
+            /* clearance for fixed status bar on desktop */
         }
 
         ::selection {
@@ -64,6 +81,8 @@
             height: 1px;
             overflow: hidden;
             clip: rect(0, 0, 0, 0);
+            clip-path: inset(50%);
+            white-space: nowrap;
         }
 
         .section-container {
@@ -411,6 +430,9 @@
         .status-badge svg {
             width: 12px;
             height: 12px;
+            stroke: var(--brand);
+            fill: none;
+            stroke-width: 2;
             animation: pulse 2s infinite;
         }
 
@@ -471,7 +493,11 @@
 
         .btn-primary:hover {
             background: rgba(16, 185, 129, .9);
-            transform: translateX(4px);
+            transform: translateY(-2px);
+        }
+
+        .btn-primary.full:hover {
+            transform: translateY(-2px);
         }
 
         .btn-primary svg {
@@ -518,6 +544,16 @@
             transition: border-color .3s;
         }
 
+        .terminal-card:hover {
+            border-color: rgba(16, 185, 129, .25);
+        }
+
+        /* Global focus-visible for keyboard accessibility */
+        :focus-visible {
+            outline: 2px solid var(--brand);
+            outline-offset: 3px;
+        }
+
         .terminal-header {
             background: rgba(255, 255, 255, .05);
             border-bottom: 1px solid rgba(255, 255, 255, .1);
@@ -562,7 +598,7 @@
         }
 
         .t-cmd {
-            color: var(--slate-500);
+            color: var(--slate-400);
         }
 
         .t-out {
@@ -603,6 +639,7 @@
 
         .terminal-wrap {
             position: relative;
+            overflow: visible;
         }
 
         /* ── ABOUT ── */
@@ -635,12 +672,31 @@
         }
 
         .section-heading {
-            font-size: clamp(1.25rem, 5vw, 2.25rem);
+            font-size: clamp(1.1rem, 4vw, 2.25rem);
             font-weight: 900;
             letter-spacing: -.05em;
             color: var(--white);
             text-transform: uppercase;
             white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            min-width: 0;
+        }
+
+        @media (max-width: 480px) {
+            .section-heading {
+                white-space: normal;
+                word-break: break-word;
+                font-size: clamp(1rem, 5vw, 1.5rem);
+            }
+
+            .section-title-wrap {
+                flex-wrap: wrap;
+            }
+
+            .section-line {
+                display: none;
+            }
         }
 
         .section-line {
@@ -709,7 +765,8 @@
             align-items: center;
             gap: .5rem;
             font-size: .75rem;
-            word-break: break-all;
+            word-break: break-word;
+            overflow-wrap: anywhere;
         }
 
         .info-val svg {
@@ -963,7 +1020,13 @@
 
         .projects-list {
             display: grid;
-            gap: 3rem;
+            gap: 2rem;
+        }
+
+        @media (min-width: 640px) {
+            .projects-list {
+                gap: 3rem;
+            }
         }
 
         .project-card {
@@ -988,6 +1051,14 @@
             height: 8px;
             border-radius: 50%;
             background: var(--slate-700);
+        }
+
+        .proj-dot:first-child {
+            background: rgba(239, 68, 68, .5);
+        }
+
+        .proj-dot:nth-child(2) {
+            background: rgba(245, 158, 11, .5);
         }
 
         .proj-id {
@@ -1086,8 +1157,8 @@
 
         .highlight-item span {
             font-size: .6875rem;
-            color: var(--slate-500);
-            font-weight: 700;
+            color: var(--slate-400);
+            font-weight: 600;
             line-height: 1.4;
         }
 
@@ -1145,7 +1216,7 @@
 
         .edu-grid {
             display: grid;
-            gap: 5rem;
+            gap: 3rem;
         }
 
         @media (min-width: 1024px) {
@@ -1298,7 +1369,7 @@
 
         .achievement-detail {
             font-size: .75rem;
-            color: var(--slate-500);
+            color: var(--slate-400);
             line-height: 1.6;
             font-weight: 500;
         }
@@ -1363,7 +1434,7 @@
 
         .leadership-details {
             font-size: .75rem;
-            color: var(--slate-600);
+            color: var(--slate-400);
             line-height: 1.6;
             font-weight: 500;
         }
@@ -1423,7 +1494,7 @@
             align-items: center;
             gap: 1.5rem;
             justify-content: center;
-            margin-bottom: 5rem;
+            margin-bottom: 3rem;
         }
 
         @media (min-width: 640px) {
@@ -1611,7 +1682,8 @@
                 <a class="nav-cta" href="#contact">Execute_Contact</a>
             </div>
 
-            <button class="hamburger" id="hamburger-btn" aria-label="Menu">
+            <button class="hamburger" id="hamburger-btn" aria-label="Menu" aria-expanded="false"
+                aria-controls="mobile-menu">
                 <svg id="icon-menu" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                     stroke-width="2">
                     <line x1="3" y1="6" x2="21" y2="6" />
@@ -1766,37 +1838,30 @@
                         <ul class="values-list">
                             <li>
                                 <svg viewBox="0 0 24 24">
-                                    <line x1="4" y1="9" x2="20" y2="9" />
-                                    <line x1="4" y1="15" x2="20" y2="15" />
-                                    <line x1="10" y1="3" x2="8" y2="21" />
-                                    <line x1="16" y1="3" x2="14" y2="21" />
+                                    <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
                                 </svg>
                                 Performance First
                             </li>
                             <li>
                                 <svg viewBox="0 0 24 24">
-                                    <line x1="4" y1="9" x2="20" y2="9" />
-                                    <line x1="4" y1="15" x2="20" y2="15" />
-                                    <line x1="10" y1="3" x2="8" y2="21" />
-                                    <line x1="16" y1="3" x2="14" y2="21" />
+                                    <polyline points="16 18 22 12 16 6" />
+                                    <polyline points="8 6 2 12 8 18" />
                                 </svg>
                                 Clean Architecture
                             </li>
                             <li>
                                 <svg viewBox="0 0 24 24">
-                                    <line x1="4" y1="9" x2="20" y2="9" />
-                                    <line x1="4" y1="15" x2="20" y2="15" />
-                                    <line x1="10" y1="3" x2="8" y2="21" />
-                                    <line x1="16" y1="3" x2="14" y2="21" />
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                                    <circle cx="9" cy="7" r="4" />
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
                                 </svg>
                                 User-Centric Flow
                             </li>
                             <li>
                                 <svg viewBox="0 0 24 24">
-                                    <line x1="4" y1="9" x2="20" y2="9" />
-                                    <line x1="4" y1="15" x2="20" y2="15" />
-                                    <line x1="10" y1="3" x2="8" y2="21" />
-                                    <line x1="16" y1="3" x2="14" y2="21" />
+                                    <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+                                    <rect x="9" y="9" width="6" height="6" />
                                 </svg>
                                 Scalable Logic
                             </li>
@@ -2086,7 +2151,7 @@
                         <a href="#about">Logs</a>
                         <a href="#projects">Modules</a>
                     </div>
-                    <p id="footer-year">© 2025 No_Rights_Reserved. Just_Code.</p>
+                    <p id="footer-year">© <span id="footer-year-val"></span> No_Rights_Reserved. Just_Code.</p>
                 </div>
             </div>
         </div>
@@ -2191,11 +2256,11 @@
             const tagsHTML = p.tags.map(t => `<span class="proj-tag">#${t}</span>`).join('');
             const hls = p.highlights.map(h => `
       <div class="highlight-item">
-        <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
         <span>${h}</span>
       </div>`).join('');
 
-            list.innerHTML += `
+            list.insertAdjacentHTML('beforeend', `
       <div class="terminal-card project-card reveal" style="transition-delay:${i * 0.1}s">
         <div class="terminal-header project-header">
           <div class="project-header-left">
@@ -2217,12 +2282,12 @@
               <span class="build-status">Build_Status: SUCCESS</span>
               <a class="inspect-btn" href="${p.url}" target="_blank" rel="noreferrer">
                 Inspect_Module
-                <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
               </a>
             </div>
           </div>
         </div>
-      </div>`;
+      </div>`);
         });
 
         /* ── NAV SCROLL ── */
@@ -2237,11 +2302,13 @@
         const iconClose = document.getElementById('icon-close');
         let menuOpen = false;
 
-        document.getElementById('hamburger-btn').addEventListener('click', () => {
+        const hamburgerBtn = document.getElementById('hamburger-btn');
+        hamburgerBtn.addEventListener('click', () => {
             menuOpen = !menuOpen;
             mobileMenu.classList.toggle('open', menuOpen);
             iconMenu.style.display = menuOpen ? 'none' : '';
             iconClose.style.display = menuOpen ? '' : 'none';
+            hamburgerBtn.setAttribute('aria-expanded', menuOpen);
         });
 
         function closeMenu() {
@@ -2249,9 +2316,18 @@
             mobileMenu.classList.remove('open');
             iconMenu.style.display = '';
             iconClose.style.display = 'none';
+            hamburgerBtn.setAttribute('aria-expanded', 'false');
         }
 
+        /* Close menu when clicking outside */
+        document.addEventListener('click', (e) => {
+            if (menuOpen && !mobileMenu.contains(e.target) && !hamburgerBtn.contains(e.target)) {
+                closeMenu();
+            }
+        });
+
         /* ── SCROLL REVEAL ── */
+        // Run AFTER projects are rendered so dynamic cards are included
         const revealEls = document.querySelectorAll('.reveal, .reveal-x');
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(e => {
@@ -2264,8 +2340,7 @@
         revealEls.forEach(el => observer.observe(el));
 
         /* ── FOOTER YEAR ── */
-        document.getElementById('footer-year').textContent =
-            `© ${new Date().getFullYear()} No_Rights_Reserved. Just_Code.`;
+        document.getElementById('footer-year-val').textContent = new Date().getFullYear();
     </script>
 </body>
 
